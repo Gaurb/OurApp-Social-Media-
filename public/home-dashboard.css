@@ -20,22 +20,28 @@
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .2);
 }
 
-body {
-  background-color: white;
-}
-
-.brand {
+header .brand {
   color: var(--color-white);
   margin-left: 5rem;
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 2rem;
 }
-
-.form-inline {
+header .icons {
   display: flex;
   margin-right: 5rem;
 }
+header .icons .icon {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
 
-.container {
-  display: flex;
-}/*# sourceMappingURL=home-guest.css.map */
+.home-dash {
+  padding: auto;
+  text-align: center;
+}
+.home-dash h span {
+  font-weight: 700;
+}
+.home-dash p {
+  font-size: 1.3rem;
+  color: var(--color-grey-3);
+}/*# sourceMappingURL=home-dashboard.css.map */
